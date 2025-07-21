@@ -40,3 +40,7 @@
 .delay-6s {
   animation-delay: 6s;
 }
+
+* {
+  font-family: 'Inter', sans-serif !important;
+}

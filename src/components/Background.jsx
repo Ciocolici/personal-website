@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
-import CLOUDS from "vanta/dist/vanta.clouds.min";
+import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
 
-function ParticleBackground() {
+function Background() {
   const vantaRef = useRef(null);
   const [vantaEffect, setVantaEffect] = useState(null);
 
   useEffect(() => {
     if (!vantaEffect) {
-      const effect = CLOUDS({
+      const effect = CELLS({
         el: vantaRef.current,
         THREE: THREE,
         mouseControls: true,
@@ -16,6 +16,10 @@ function ParticleBackground() {
         gyroControls: false,
         minHeight: 200.0,
         minWidth: 200.0,
+        scale: 1.0,
+        color1: 0x0,
+        color2: 0x3939bb,
+        size: 1.2,
       });
       setVantaEffect(effect);
     }
@@ -40,4 +44,4 @@ function ParticleBackground() {
   );
 }
 
-export default ParticleBackground;
+export default Background;
