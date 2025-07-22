@@ -1,8 +1,12 @@
 {
   "intro": "Salut, sunt Daniel,",
-  "intro2": "un junior software developer.",
+  "intro2": "un software developer junior.",
   "intro3": "Bine ai venit pe site-ul meu!",
   "homeAbout": "Cunoaște-mă",
   "homeProjects": "Vezi munca mea",
-  "homeContact": "Contactează-mă"
+  "homeContact": "Contactează-mă",
+  "navAbout": "Despre mine",
+  "navProjects": "Proiecte",
+  "navContact": "Contact",
+  "footerSource": "Cod sursă"
 }

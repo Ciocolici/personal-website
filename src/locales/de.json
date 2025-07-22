@@ -4,5 +4,9 @@
   "intro3": "Willkommen auf meiner Website!",
   "homeAbout": "Lerne mich kennen",
   "homeProjects": "Sieh dir meine Arbeiten an",
-  "homeContact": "Kontaktiere mich"
+  "homeContact": "Kontaktiere mich",
+  "navAbout": "Über mich",
+  "navProjects": "Projekte",
+  "navContact": "Kontakt",
+  "footerSource": "Quellcode"
 }

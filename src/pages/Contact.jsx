@@ -1,7 +1,13 @@
+import { useTranslation } from "react-i18next";
+
 function Contact() {
+  const { t } = useTranslation();
+
   return (
-    <div>
-    </div>
+    <div
+      className="fade-slided-flex flex-column align-items-center justify-content-center text-center p-4"
+      style={{ minHeight: "75vh" }}
+    ></div>
   );
 }
 

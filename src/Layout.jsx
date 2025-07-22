@@ -1,25 +1,26 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import Background from "./components/Background";
 import Footer from "./components/Footer";
-import LangSwitch from "./components/LangSwitch";
+import Nav from "./components/Nav";
+import LangSwitcher from "./components/LangSwitcher";
 
 function Layout() {
   const location = useLocation();
 
   return (
     <>
-      <div className="position-relative z-3">
-        <LangSwitch />
-      </div>
-      <Background />
-      <div style={{ position: "relative", zIndex: 1 }}>
-        <AnimatePresence mode="wait">
+      <div className="d-flex flex-column min-vh-100 position-relative">
+        <div className="z-3">
+          <Nav />
+        </div>
+        <Background />
+        <main className="flex-grow-1 position-relative z-1">
           <Outlet key={location.pathname} />
-        </AnimatePresence>
-      </div>
+        </main>
 
-      <Footer />
+        <LangSwitcher />
+        <Footer />
+      </div>
     </>
   );
 }
