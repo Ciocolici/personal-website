@@ -44,3 +44,14 @@
   font-family: "Inter", sans-serif !important;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+img,
+.row,
+.container,
+.container-fluid {
+  max-width: 100%;
+  overflow-x: hidden;
+}

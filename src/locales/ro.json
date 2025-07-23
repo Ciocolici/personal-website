@@ -8,5 +8,15 @@
   "navAbout": "Despre mine",
   "navProjects": "Proiecte",
   "navContact": "Contact",
-  "footerSource": "Cod sursă"
+  "footerSource": "Cod sursă",
+  "profilePhoto": "Fotografie de profil",
+  "aboutMeTitle": "Junior Software Developer",
+  "aboutMeTitle2": "Expert în informatică: Dezvoltare de aplicații",
+  "aboutMeTitle3": "(IHK, Germania)",
+  "aboutMeContent": "Junior Software Developer, cu calificare finalizată IHK (Germania) ca Expert în Informatică: Dezvoltare de Aplicații.",
+  "aboutMeContent2": "După câțiva ani în domeniul IT (ca tehnician), mi-am descoperit pasiunea pentru Software Development, printr-un program de recalificare ca Expert în informatică: Dezvoltare de aplicații, precum și prin experiență practică acumulată în proiecte și stagii.",
+  "aboutMeContent3": "În timpul programului de recalificare profesională, m-am concentrat în principal pe C# și MySQL, de la aplicații de tip consolă până la proiecte mici cu interfață grafică (GUI) folosind WinForms și WPF. În timpul stagiului de practică, am acumulat primele experiențe practice cu HTML, CSS și JavaScript, inclusiv cu framework-uri și unelte precum EJS, React.js, Bootstrap și Node.js. Proiectul meu final de la sfârșitul reconversiei a fost o aplicație web pentru automatizarea schimbării furnizorului de numere de telefon, implementată folosind framework-ul React, Next.js.",
+  "aboutMeContent4": "Pe lângă certificarea germană IHK ca Expert în Informatică: Dezvoltare de Aplicații, am obținut în timpul recalificării profesionale și certificatele Professional Scrum Master I, ITIL® Foundation în Managementul Serviciilor IT și Certificatul de bază GPM în Managementul Proiectelor.",
+  "aboutMeContent5": "Ce mă definește: nu renunț. Chiar și când condițiile nu sunt ideale, găsesc modalități de a învăța, prin cursuri online, proiecte personale sau pur și simplu testând lucruri noi. Mă adaptez rapid la tehnologii noi, sunt orientat spre soluții și îmi place când, prin cod, reușesc să fac un proces real mai eficient.",
+  "aboutMeContent6": "Caut o echipă în care să pot crește, atât profesional, cât și uman. Restul se vede în cod."
 }

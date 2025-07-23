@@ -8,5 +8,15 @@
   "navAbout": "About me",
   "navProjects": "Projects",
   "navContact": "Contact",
-  "footerSource": "Source Code"
+  "footerSource": "Source Code",
+  "profilePhoto": "Profile Photo",
+  "aboutMeTitle": "Junior Software Developer",
+  "aboutMeTitle2": "Computer Science Expert: Software Development",
+  "aboutMeTitle3": "(IHK, Germany)",
+  "aboutMeContent": "Junior Software Developer, with a completed german IHK qualification as a Computer Science Expert: Software Development.",
+  "aboutMeContent2": "After several years in IT (as a technician), I discovered my passion for software development, through a retraining program as an Computer Science Expert: Software Development as well as through hands-on experience in various projects and internships.",
+  "aboutMeContent3": "During my retraining, I focused mainly on C# and MySQL, from console applications to small GUI projects using WinForms and WPF. During my internship, I gained my first hands-on experience with HTML, CSS, and JavaScript, including frameworks and tools like EJS, React.js, Bootstrap, and Node.js. My final project at the end of the program was a web application for automating phone number provider switches, implemented using the React framework Next.js.",
+  "aboutMeContent4": "In addition to the IHK certification as an Computer Science Expert: Software Development, I also earned the Professional Scrum Master I, ITIL® Foundation in IT Service Management, and the GPM Basic Certificate in Project Management during my retraining.",
+  "aboutMeContent5": "What sets me apart: I don’t give up. Even when the conditions aren’t ideal, I find ways to keep learning, through online courses, personal projects, or simply by trying things out. I quickly adapt to new tools, enjoy thinking in solutions, and love writing code that simplifies real-world processes.",
+  "aboutMeContent6": "I’m looking for a team where I can grow, both technically and personally. The rest? You’ll see in the code."
 }
