@@ -18,5 +18,11 @@
   "aboutMeContent3": "Während meiner Umschulung lag mein Fokus vor allem auf C# und MySQL, von der Konsolenanwendung bis zu kleinen GUI-Projekten mit WinForms und WPF. Im Praktikum konnte ich dann erste praktische Erfahrungen mit HTML, CSS und JavaScript sammeln, inklusive Frameworks und Tools wie EJS, React.js, Bootstrap und Node.js. Mein Abschlussprojekt am Ende der Umschulung war eine Webanwendung zur Automatisierung von Rufnummernanbieter-Wechseln, umgesetzt mit dem React-Framework Next.js.",
   "aboutMeContent4": "Neben dem IHK-Abschluss als Fachinformatiker für Anwendungsentwicklung habe ich während der Umschulung außerdem die Zertifikate Professional Scrum Master I, ITIL® Foundation in IT Service Management und das GPM Basiszertifikat im Projektmanagement erworben.",
   "aboutMeContent5": "Was mich besonders ausmacht: Ich bleibe dran. Auch wenn die Rahmenbedingungen nicht perfekt sind, finde ich Wege, weiterzulernen, durch Onlinekurse, eigene Projekte oder einfach durchs Ausprobieren. Ich arbeite mich schnell in neue Tools ein, denke gerne in Lösungen und liebe es, wenn Code reale Prozesse einfacher macht.",
-  "aboutMeContent6": "Ich suche ein Team, in dem ich wachsen kann, technisch und menschlich. Alles Weitere sieht man im Code."
+  "aboutMeContent6": "Ich suche ein Team, in dem ich wachsen kann, technisch und menschlich. Alles Weitere sieht man im Code.",
+  "yourName": "Name",
+  "yourMessage": "Nachricht",
+  "send": "Absenden",
+  "contactMeAutoresponse": "Vielen Dank für ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
+  "contactMeContent": "Hat Ihnen meine Website gefallen, haben Sie Feedback, Fragen oder möchten mir einfach etwas schreiben? Nutzen Sie gerne das Kontaktformular, das ist der schnellste Weg, mich zu erreichen. Natürlich können Sie mir auch auf klassische Weise eine E-Mail über Ihren bevorzugten Anbieter schicken.",
+  "contactMeContent2": "Vielen Dank für Ihren Besuch!"
 }
