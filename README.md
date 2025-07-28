@@ -2,7 +2,7 @@
 
 Welcome to the source code of my personal portfolio website — a responsive, multilingual web app built with **React**, **Vite**, **Bootstrap**, and **i18next**. This site showcases my background, my projects, and gives visitors an easy way to get in touch.
 
-Live demo: **[Coming Soon]**
+Live: **https://danielcirjeu.dev**
 
 ---
 
@@ -69,7 +69,7 @@ Visit `http://localhost:5173` in your browser.
 
 **Daniel Marian Cîrjeu**
 Junior Software Developer
-📧 [daniel.cirjeu@proton.me]
+📧 daniel.cirjeu@proton.me
 
 ---
 ```
