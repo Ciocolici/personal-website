@@ -1,12 +1,75 @@
-# React + Vite
+# 🌐 Daniel Marian Cîrjeu — Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my personal portfolio website — a responsive, multilingual web app built with **React**, **Vite**, **Bootstrap**, and **i18next**. This site showcases my background, my projects, and gives visitors an easy way to get in touch.
 
-Currently, two official plugins are available:
+Live demo: **[Coming Soon]**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ Built with **React** + **Vite** for lightning-fast performance
+- 🎨 Styled with **Bootstrap 5** and **Bootstrap Icons**
+- 🌍 **Multilingual** (DE 🇩🇪, EN 🇬🇧, RO 🇷🇴) using `react-i18next`
+- 🧠 Organized by pages: About, Projects, Contact
+- 🌌 Animated background powered by **Vanta.js**
+- 📱 Fully **responsive** on all screen sizes
+- 🧭 Clean routing using `react-router-dom`
+
+---
+
+## 🛠️ Tech Stack
+
+| Category     | Tech                       |
+| ------------ | -------------------------- |
+| Frontend     | React, JSX, Bootstrap, CSS |
+| Routing      | react-router-dom           |
+| Translations | i18next, react-i18next     |
+| Animations   | Vanta.js                   |
+| Tooling      | Vite, ESLint, Prettier     |
+
+---
+
+## 🧪 Installation & Development
+
+### Prerequisites
+
+- Node.js ≥ 18
+- npm ≥ 9
+
+### Clone & Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/personal-website.git
+cd personal-website
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+Visit `http://localhost:5173` in your browser.
+
+---
+
+## 📦 Available Scripts
+
+| Script          | Description                      |
+|------------------|----------------------------------|
+| `npm run dev`     | Start local development server   |
+| `npm run build`   | Create production build          |
+| `npm run preview` | Preview the production build     |
+| `npm run lint`    | Run ESLint on the codebase       |
+
+---
+
+## 👤 Author
+
+**Daniel Marian Cîrjeu**
+Junior Software Developer
+📧 [daniel.cirjeu@proton.me]
+
+---
+```

@@ -39,7 +39,7 @@ function LangSwitcher() {
       <div className="position-fixed bottom-0 start-0 p-2">
         <div className="d-md-none position-relative">
           <button
-            className="btn btn-sm btn-outline-light"
+            className="btn btn-sm btn-dark border border-dark"
             onClick={() => setShowLangs(!showLangs)}
           >
             <i className="bi bi-globe" />
@@ -48,19 +48,19 @@ function LangSwitcher() {
           {showLangs && (
             <div className="position-absolute bottom-100 start-0 mb-2 d-flex flex-column align-items-start gap-1">
               <button
-                className="btn btn-sm btn-outline-dark btn-light w-100"
+                className="btn btn-sm btn-dark border border-dark w-100"
                 onClick={() => i18n.changeLanguage("de")}
               >
                 DE
               </button>
               <button
-                className="btn btn-sm btn-outline-dark btn-light w-100"
+                className="btn btn-sm btn-dark border border-dark w-100"
                 onClick={() => i18n.changeLanguage("en")}
               >
                 EN
               </button>
               <button
-                className="btn btn-sm btn-outline-dark btn-light w-100"
+                className="btn btn-sm btn-dark border border-dark w-100"
                 onClick={() => i18n.changeLanguage("ro")}
               >
                 RO

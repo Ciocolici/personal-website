@@ -80,7 +80,9 @@ function Nav() {
                   to="/"
                   title="Home"
                   className={({ isActive }) =>
-                    `btn btn-outline-light me-2 ${isActive ? "active" : ""}`
+                    `btn btn-dark border border-dark me-2 ${
+                      isActive ? "active" : ""
+                    }`
                   }
                   aria-current={({ isActive }) =>
                     isActive ? "page" : undefined
@@ -94,7 +96,9 @@ function Nav() {
                   to="/about"
                   title={t("navAbout")}
                   className={({ isActive }) =>
-                    `btn btn-outline-light me-2 ${isActive ? "active" : ""}`
+                    `btn btn-dark border border-dark me-2 ${
+                      isActive ? "active" : ""
+                    }`
                   }
                   aria-current={({ isActive }) =>
                     isActive ? "page" : undefined
@@ -108,7 +112,9 @@ function Nav() {
                   to="/projects"
                   title={t("navProjects")}
                   className={({ isActive }) =>
-                    `btn btn-outline-light me-2 ${isActive ? "active" : ""}`
+                    `btn btn-dark border border-dark me-2 ${
+                      isActive ? "active" : ""
+                    }`
                   }
                   aria-current={({ isActive }) =>
                     isActive ? "page" : undefined
@@ -122,7 +128,9 @@ function Nav() {
                   to="/contact"
                   title={t("navContact")}
                   className={({ isActive }) =>
-                    `btn btn-outline-light me-2 ${isActive ? "active" : ""}`
+                    `btn btn-dark border border-dark me-2 ${
+                      isActive ? "active" : ""
+                    }`
                   }
                   aria-current={({ isActive }) =>
                     isActive ? "page" : undefined

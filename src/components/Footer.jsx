@@ -11,7 +11,7 @@ function Footer() {
         aria-label="GitHub"
         title={t("footerSource")}
       >
-        <i className="bi bi-github"></i>
+        <i className="bi bi-git"></i>
       </a>
       <span className="mb-0 me-1 mb-md-0 text-light text-decoration-none lh-1">
         © {new Date().getFullYear()} Daniel Marian Cîrjeu

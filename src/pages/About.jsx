@@ -7,7 +7,7 @@ function About() {
 
   return (
     <div
-      className="fade-slide d-flex flex-column justify-content-center mt-5"
+      className="fade-slide d-flex flex-column justify-content-center mt-4"
       style={{ minHeight: "75vh" }}
     >
       <div className="container-fluid d-flex justify-content-center pe-0">
@@ -61,22 +61,22 @@ function About() {
                 </div>
                 <div className="row">
                   <div className="col-12 mt-4 pe-0">
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent")}
                     </p>
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent2")}
                     </p>
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent3")}
                     </p>
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent4")}
                     </p>
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent5")}
                     </p>
-                    <p className="lead text-light text-xxl-start">
+                    <p className="lead text-light text-xxl-start text-mobile-words">
                       {t("aboutMeContent6")}
                     </p>
                   </div>

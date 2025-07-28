@@ -11,7 +11,7 @@ function Contact() {
       <div className="container-fluid d-flex justify-content-center pe-0">
         <div className="w-100 p-0" style={{ maxWidth: "1600px" }}>
           <div className="row justify-content-center">
-            <div className="col-12 d-flex flex-column align-items-center">
+            <div className="col-12 d-flex flex-column align-items-center ">
               <h1 className="Display-6 text-light mt-4 text-center">
                 {t("contactMeContent2")}{" "}
                 <i className="bi bi-emoji-smile ms-2"></i>
@@ -21,23 +21,9 @@ function Contact() {
                 className="w-100 d-flex justify-content-center mt-3"
                 style={{ maxWidth: "620px" }}
               >
-                <p className="lead text-light text-start">
+                <p className="lead text-light text-start text-mobile-words">
                   {t("contactMeContent")}
                 </p>
-              </div>
-
-              <div>
-                <i className="bi bi-arrow-right text-light"></i>
-                <a
-                  href="mailto:daniel.cirjeu@proton.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-light ms-2"
-                  title="E-Mail"
-                >
-                  <i className="bi bi-envelope-at fs-3"></i>
-                </a>
-                <i className="bi bi-arrow-left ms-2 text-light"></i>
               </div>
 
               <form
@@ -88,6 +74,20 @@ function Contact() {
                   {t("send")}
                 </button>
               </form>
+              <h2 className="Display-6 text-light m-4 text-center">/</h2>
+              <div className="mb-3">
+                <i className="bi bi-arrow-right text-light"></i>
+                <a
+                  href="mailto:daniel.cirjeu@proton.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light ms-2"
+                  title="E-Mail"
+                >
+                  <i className="bi bi-envelope-at fs-3"></i>
+                </a>
+                <i className="bi bi-arrow-left ms-2 text-light"></i>
+              </div>
             </div>
           </div>
         </div>
