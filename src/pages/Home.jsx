@@ -6,9 +6,8 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      {/* Welcome Text*/}
-      <div
+    <main>
+      <section
         className="d-flex flex-column align-items-center justify-content-center text-center p-4"
         style={{ minHeight: "75vh" }}
       >
@@ -44,8 +43,8 @@ function Home() {
             </button>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

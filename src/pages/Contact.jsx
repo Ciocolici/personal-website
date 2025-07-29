@@ -4,11 +4,11 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div
+    <main
       className="fade-slide d-flex flex-column justify-content-center mt-5"
       style={{ minHeight: "75vh" }}
     >
-      <div className="container-fluid d-flex justify-content-center pe-0">
+      <section className="container-fluid d-flex justify-content-center pe-0">
         <div className="w-100 p-0" style={{ maxWidth: "1600px" }}>
           <div className="row justify-content-center">
             <div className="col-12 d-flex flex-column align-items-center ">
@@ -91,8 +91,8 @@ function Contact() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

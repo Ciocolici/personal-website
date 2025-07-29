@@ -139,12 +139,12 @@ function Projects() {
   };
 
   return (
-    <div
+    <main
       ref={animatedRef}
       className="fade-slide d-flex flex-column justify-content-center mt-5 text-center"
       style={{ minHeight: "75vh" }}
     >
-      <div className="container-fluid d-flex justify-content-center pe-0 mt-5">
+      <section className="container-fluid d-flex justify-content-center pe-0 mt-5">
         <div className="w-100" style={{ maxWidth: "1600px" }}>
           <div className="row ">
             <div className="col-12 col-xxl-6 d-flex align-items-center justify-content-center mb-4 mb-xxl-0">
@@ -401,8 +401,8 @@ function Projects() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

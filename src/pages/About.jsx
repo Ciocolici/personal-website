@@ -6,11 +6,11 @@ function About() {
   const { t } = useTranslation();
 
   return (
-    <div
+    <main
       className="fade-slide d-flex flex-column justify-content-center mt-4"
       style={{ minHeight: "75vh" }}
     >
-      <div className="container-fluid d-flex justify-content-center pe-0">
+      <section className="container-fluid d-flex justify-content-center pe-0">
         <div className="w-100" style={{ maxWidth: "1600px" }}>
           <div className="row ">
             <div className="col-12 col-xxl-6 p-0">
@@ -93,8 +93,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
