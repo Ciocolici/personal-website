@@ -40,7 +40,7 @@ function About() {
                       {t("aboutMeTitle3")}
                     </h3>
                     <a
-                      href="https://www.linkedin.com/in/daniel-c%C3%AErjeu-04a75b342/"
+                      href="linkedin.com/in/daniel-cirjeu"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-light ms-1"
