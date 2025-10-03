@@ -23,6 +23,7 @@
   "yourMessage": "Mesaj",
   "send": "Trimite",
   "contactMeAutoresponse": "Mulțumesc pentru mesaj! Vă voi răspunde cât mai curând posibil.",
+  "contactMeAutoresponseNegative": "A apărut o eroare la trimiterea mesajului. Vă rog să încercați din nou.",
   "contactMeContent": "V-a plăcut site-ul meu, aveți feedback, întrebări sau doriți pur și simplu să-mi scrieți ceva? Vă invit să folosiți formularul de contact, este cea mai rapidă metodă de a lua legătura cu mine. Desigur, îmi puteți trimite și un e-mail prin serviciul dumneavoastră preferat.",
   "contactMeContent2": "Vă mulțumesc că ați vizitat site-ul meu!",
   "project1": {

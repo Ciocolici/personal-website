@@ -23,6 +23,7 @@
   "yourMessage": "Nachricht",
   "send": "Absenden",
   "contactMeAutoresponse": "Vielen Dank für ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
+  "contactMeAutoresponseNegative": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
   "contactMeContent": "Hat Ihnen meine Website gefallen, haben Sie Feedback, Fragen oder möchten mir einfach etwas schreiben? Nutzen Sie gerne das Kontaktformular, das ist der schnellste Weg, mich zu erreichen. Natürlich können Sie mir auch auf klassische Weise eine E-Mail über Ihren bevorzugten Anbieter schicken.",
   "contactMeContent2": "Vielen Dank für Ihren Besuch!",
   "project1": {

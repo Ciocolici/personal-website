@@ -1,7 +1,45 @@
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const { t } = useTranslation();
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_squ87ap",
+        "template_9qvberc",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        "CTKv7OQBCnS94abBn"
+      )
+      .then(() => {
+        alert(t("contactMeAutoresponse"));
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch(() => {
+        alert(t("contactMeAutoresponseNegative"));
+      });
+  };
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   return (
     <main
@@ -27,23 +65,16 @@ function Contact() {
               </div>
 
               <form
-                action="http://formsubmit.co/0956479d7939fd7c38cd3ded17f8e6f7"
-                method="post"
+                onSubmit={handleSubmit}
                 className="w-100 mt-4"
                 style={{ maxWidth: "500px" }}
               >
-                <input type="hidden" name="_captcha" value="true" />
-                <input type="hidden" name="_template" value="table" />
-                <input
-                  type="hidden"
-                  name="_autoresponse"
-                  value={t("contactMeAutoresponse")}
-                />
-
                 <div className="mb-3">
                   <input
                     type="text"
                     name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     className="form-control"
                     placeholder={t("yourName")}
                     required
@@ -53,6 +84,8 @@ function Contact() {
                   <input
                     type="email"
                     name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="form-control"
                     placeholder="E-Mail"
                     required
@@ -61,6 +94,8 @@ function Contact() {
                 <div className="mb-3">
                   <textarea
                     name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     className="form-control"
                     rows="5"
                     placeholder={t("yourMessage")}
