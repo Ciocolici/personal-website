@@ -380,6 +380,7 @@ function Projects() {
                       onClick={() => {
                         handleBack();
                         retriggerAnimation();
+                        window.scrollTo({ top: 0, behavior: "smooth" });
                       }}
                       disabled={index === 1}
                     >
@@ -390,6 +391,7 @@ function Projects() {
                       onClick={() => {
                         handleNext();
                         retriggerAnimation();
+                        window.scrollTo({ top: 0, behavior: "smooth" });
                       }}
                       disabled={index === maxProjects}
                     >

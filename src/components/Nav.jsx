@@ -16,6 +16,9 @@ function Nav() {
               <li className="nav-item d-none d-md-block">
                 <NavLink
                   to="/"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-outline-light shadow-sm me-2 ${
                       isActive ? "active" : ""
@@ -31,6 +34,9 @@ function Nav() {
               <li className="nav-item d-none d-md-block">
                 <NavLink
                   to="/about"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-outline-light shadow-sm me-2 ${
                       isActive ? "active" : ""
@@ -46,6 +52,9 @@ function Nav() {
               <li className="nav-item d-none d-md-block">
                 <NavLink
                   to="/projects"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-outline-light shadow-sm me-2 ${
                       isActive ? "active" : ""
@@ -61,6 +70,9 @@ function Nav() {
               <li className="nav-item d-none d-md-block">
                 <NavLink
                   to="/contact"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-outline-light shadow-sm me-2 ${
                       isActive ? "active" : ""
@@ -79,6 +91,9 @@ function Nav() {
                 <NavLink
                   to="/"
                   title="Home"
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-dark border border-dark me-2 ${
                       isActive ? "active" : ""
@@ -95,6 +110,9 @@ function Nav() {
                 <NavLink
                   to="/about"
                   title={t("navAbout")}
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-dark border border-dark me-2 ${
                       isActive ? "active" : ""
@@ -111,6 +129,9 @@ function Nav() {
                 <NavLink
                   to="/projects"
                   title={t("navProjects")}
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-dark border border-dark me-2 ${
                       isActive ? "active" : ""
@@ -127,6 +148,9 @@ function Nav() {
                 <NavLink
                   to="/contact"
                   title={t("navContact")}
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
                   className={({ isActive }) =>
                     `btn btn-dark border border-dark me-2 ${
                       isActive ? "active" : ""
