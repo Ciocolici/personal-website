@@ -148,12 +148,28 @@ function Projects() {
         <div className="w-100" style={{ maxWidth: "1600px" }}>
           <div className="row ">
             <div className="col-12 col-xxl-6 d-flex align-items-center justify-content-center mb-4 mb-xxl-0">
-              <img
-                src={photoMap[t(`${keyPrefix}.image`)]}
-                alt={t(`${keyPrefix}.imageAlt`)}
-                className="img-fluid border border-black"
-                style={{ borderRadius: "0.5rem" }}
-              />
+              {t(`${keyPrefix}.link`) ? (
+                <a
+                  href={t(`${keyPrefix}.link`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={t(`${keyPrefix}.linkAlt`)}
+                >
+                  <img
+                    src={photoMap[t(`${keyPrefix}.image`)]}
+                    alt={t(`${keyPrefix}.imageAlt`)}
+                    className="img-fluid border border-black"
+                    style={{ borderRadius: "0.5rem" }}
+                  />
+                </a>
+              ) : (
+                <img
+                  src={photoMap[t(`${keyPrefix}.image`)]}
+                  alt={t(`${keyPrefix}.imageAlt`)}
+                  className="img-fluid border border-black"
+                  style={{ borderRadius: "0.5rem" }}
+                />
+              )}
             </div>
             <div className="col-12 col-xxl-6 p-0">
               <div className="container pe-0">

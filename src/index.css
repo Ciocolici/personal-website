@@ -72,3 +72,9 @@ img,
   max-width: 100%;
   overflow-x: hidden;
 }
+
+a .img-fluid:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
