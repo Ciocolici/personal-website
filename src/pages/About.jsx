@@ -14,7 +14,7 @@ function About() {
         <div className="w-100" style={{ maxWidth: "1600px" }}>
           <div className="row ">
             <div className="col-12 col-xxl-6 p-0">
-              <div className="container pe-0">
+              <div className="container pe-0 mt-4">
                 <div className="row align-items-center">
                   <div className="col-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0 mt-4">
                     <img
