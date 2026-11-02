@@ -2,7 +2,7 @@
 
 Welcome to the source code of my personal portfolio website: a responsive, multilingual web app built with **React** and **Bootstrap**. This site showcases my background, my projects, and gives visitors an easy way to get in touch.
 
-You visit the website here: **https://danielcirjeu.dev**
+You visit the website here: **https://danielcirjeu.vercel.app**
 
 ---
 
@@ -37,7 +37,7 @@ Visit `http://localhost:5173` in your browser.
 
 **Daniel Marian Cîrjeu**
 Junior Software Developer
-📧 daniel.cirjeu@proton.me
+📧 daniel.cirjeu@gmail.com
 
 ---
 
