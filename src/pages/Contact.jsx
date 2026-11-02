@@ -113,7 +113,7 @@ function Contact() {
               <div className="mb-3">
                 <i className="bi bi-arrow-right text-light"></i>
                 <a
-                  href="mailto:daniel.cirjeu@proton.me"
+                  href="mailto:daniel.cirjeu@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-light ms-2"
